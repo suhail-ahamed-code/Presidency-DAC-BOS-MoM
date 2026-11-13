@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DAC Minutes Studio — DAC and BOS meeting request and minutes workflow
 
 A document-first application for **two committees** — the Departmental Academic Committee (DAC) and the Board of Studies (BOS) — with one shared, signed meeting request and Minutes of Meeting workflow. **One Flask process serves both the API and the compiled interface on port 8000** — open `http://localhost:8000` and the whole product works, with no second server to manage. For frontend development, Vite (`:3000`) proxies same-origin `/api` requests to Flask. A SQLite database is the shared source of truth for accounts, academic affiliations and meeting workspaces.
@@ -369,4 +368,3 @@ Point it at another host with `DAC_BASE_URL=https://mom.presidencyuniversity.in`
 =======
 # Presidency-DAC-BOS-MoM
 An AI-powered Departmental Academic Committee (DAC) Meeting Management System for managing meeting requests, agendas, minutes, approvals, digital signatures, resolutions, and Action Taken Reports (ATR) through a secure, role-based workflow.
->>>>>>> 7f64d827f1ecb584fe77b27f645d45b75b7b7cf2
